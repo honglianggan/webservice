@@ -1,0 +1,38 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webservice_cxf_rest_spting_server:war exploded">
+    <output-path>$PROJECT_DIR$/webservice_cxf_rest_spting_server/target/webservice_cxf_rest_spting_server</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webservice_cxf_rest_spting_server" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxrs:3.0.3" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-core:3.0.3" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
+          <element id="library" level="project" name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.1.0" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-transports-http:3.0.3" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-rs-service-description:3.0.3" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.1.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.1.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.1.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/webservice_cxf_rest_spting_server/target/webservice_cxf_rest_spting_server/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="webservice_cxf_rest_spting_server/web/Web" />
+    </root>
+  </artifact>
+</component>

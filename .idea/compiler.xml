@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="webservice_client" />
+        <module name="webservice_cxf_client" />
+        <module name="webservice_cxf_rest_client" />
+        <module name="webservice_cxf_rest_spting_server" />
+        <module name="webservice_cxf_server" />
+        <module name="webservice_cxf_spring_server" />
+        <module name="webservice_jaxws_client" />
+        <module name="webservice_jaxws_serve" />
+        <module name="webwervice_cxf_rest_server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webservice_client" target="1.7" />
+      <module name="webservice_cxf_client" target="1.7" />
+      <module name="webservice_cxf_rest_client" target="1.7" />
+      <module name="webservice_cxf_rest_spting_server" target="1.7" />
+      <module name="webservice_cxf_server" target="1.7" />
+      <module name="webservice_cxf_spring_server" target="1.7" />
+      <module name="webservice_jaxws" target="1.7" />
+      <module name="webservice_jaxws_client" target="1.7" />
+      <module name="webservice_jaxws_serve" target="1.7" />
+      <module name="webservice_jaxws_server" target="1.7" />
+      <module name="webwervice_cxf_rest_server" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

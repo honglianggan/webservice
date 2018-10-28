@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jaxws="http://cxf.apache.org/jaxws"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
+
+        <jaxws:server address="/hello" serviceClass="com.ghl.IHello">
+            <jaxws:serviceBean>
+                <ref bean="iHello"/>
+            </jaxws:serviceBean>
+            <!-- 配置拦截器-->
+            <jaxws:inInterceptors>
+                <bean class="org.apache.cxf.interceptor.LoggingInInterceptor"/>
+            </jaxws:inInterceptors>
+            <jaxws:outInterceptors>
+                <bean class="org.apache.cxf.interceptor.LoggingOutInterceptor"/>
+            </jaxws:outInterceptors>
+        </jaxws:server>
+        <bean name="iHello" class="com.ghl.Hello"/>
+</beans>

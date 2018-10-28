@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/webservice.iml" filepath="$PROJECT_DIR$/webservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_client/webservice_client.iml" filepath="$PROJECT_DIR$/webservice_client/webservice_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_cxf_client/webservice_cxf_client.iml" filepath="$PROJECT_DIR$/webservice_cxf_client/webservice_cxf_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_cxf_rest_client/webservice_cxf_rest_client.iml" filepath="$PROJECT_DIR$/webservice_cxf_rest_client/webservice_cxf_rest_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_cxf_rest_spting_server/webservice_cxf_rest_spting_server.iml" filepath="$PROJECT_DIR$/webservice_cxf_rest_spting_server/webservice_cxf_rest_spting_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_cxf_server/webservice_cxf_server.iml" filepath="$PROJECT_DIR$/webservice_cxf_server/webservice_cxf_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_cxf_spring_server/webservice_cxf_spring_server.iml" filepath="$PROJECT_DIR$/webservice_cxf_spring_server/webservice_cxf_spring_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_jaxws_client/webservice_jaxws_client.iml" filepath="$PROJECT_DIR$/webservice_jaxws_client/webservice_jaxws_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_jaxws_serve/webservice_jaxws_serve.iml" filepath="$PROJECT_DIR$/webservice_jaxws_serve/webservice_jaxws_serve.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_jaxws_server/webservice_jaxws_server.iml" filepath="$PROJECT_DIR$/webservice_jaxws_server/webservice_jaxws_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webwervice_cxf_rest_server/webwervice_cxf_rest_server.iml" filepath="$PROJECT_DIR$/webwervice_cxf_rest_server/webwervice_cxf_rest_server.iml" />
+    </modules>
+  </component>
+</project>
